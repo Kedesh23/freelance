@@ -22,21 +22,33 @@
         <main>
             <!-- search bar -->
                 <div class="bg-[url('./assets/dev.jpg')] h-[400px]">
-                    <div class="flex justify-center">
-                        <h1 class="font-bold text-xl text-blue-600">Find the most exciting startup jobs</h1>
-                        <form class="border-2 border-blue-400 rounded">
-                            <input type="text" name="search" placeholder="search a job" class="py-[1.5em] px-[3em]"/>
-                            <select class="py-[1.5em] px-[4em]">
-                                <option value="">Libreville</option>
-                                <option value="">Franceville</option>
-                                <option value="">Lambarene</option>
-                                <option value="">Mouila</option>
-                                <option value="">Tchibanga</option>
-                                <option value="">Koulamoutou</option>
-                            </select>
-                            <button class="bg-blue-400 px-[2em] h-full">Search</button>
-                        </form>
+                    <div class="w-full h-full bg-black opacity-80">
+                        <div class="flex flex-col items-center py-[3em] leading-[80px]">
+                            <h1 class="text-white font-bold text-5xl">You can choose your dream job</h1>
+                            <h2 class="font-bold text-blue-800">Find great job for build your bright career. Have many job in this platform</h2>
+                        </div>
+                        <div class="flex justify-center">
+                            <form>
+                                <select class="w-[20em] py-[1em] rounded-lg" placeholder="Choose City">
+                                    <option value="">Libreville</option>
+                                    <option value="">Franceville</option>
+                                    <option value="">Mouila</option>
+                                    <option value="">Port-Gentil</option>
+                                    <option value="">Lambarene</option>
+                                </select>
+
+                                <select class="w-[20em] py-[1em] rounded-lg" aria-placeholder="Category">
+                                    <option value="">Web Designer</option>
+                                    <option value="">Web Developer</option>
+                                    <option value="">Graphic Designer</option>
+                                    <option value="">App Developer</option>
+                                    <option value="">UI & UX Expert</option>
+                                </select>
+                                <button type="submit"  class="font-bold bg-blue-600 py-[.9em] px-[3em] rounded-lg">Search</button>
+                            </form>
+                        </div>
                     </div>
+                    
                 </div>
 
             <!-- Section for categories -->
@@ -127,7 +139,7 @@
                 </div>
             </div>
         </main>
-        <footer class="bg-blue-600 px-[2em] py-[1em] flex justify-between px-[4em]">
+        <footer class="bg-blue-500 px-[2em] py-[1em] flex justify-between px-[4em] text-white">
 
              <div class="flex flex-col items-center">
                 <h1 class="font-bold text-xl mb-[1em]">Job seekers</h1>
