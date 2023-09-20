@@ -1,169 +1,159 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
     <head>
-        <title>Freelance site</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://cdn.tailwindcss.com"></script>
     </head>
     <body>
         <header>
-            <nav class="flex justify-between items-center px-[2em] font-bold border-2px border-blue-400">
+            <nav class="flex items-center justify-between px-[2em] font-bold">
                 <div class="flex items-center">
-                    <img src="./assets/logo.png" alt="logo" class="h-[100px]"/>
+                    <img src="./assets/logoW.jpg" alt="Freelancer" width="100px"/>
                     <span>Freelancer</span>
                 </div>
-
-                <img src="./assets/menu.png" alt="menu" class="lg:hidden">
-                <ul class="flex gap-5">
-                    <li><a href="#">Home</a></li>
+                <ul class="flex gap-10">
+                    <li><a href="#">Find a Freelnace</a></li>
                     <li><a href="#">Find a Job</a></li>
-                    <li><a href="#">Recruiter</a></li>
                 </ul>
-                <a class="bg-blue-400 p-[1em] rounded-[10px]" href="sign_in.html">Login/Register</a>
+                <button href="sign_in.html" class="bg-blue-400 rounded px-[2em] py-[1em]">Register/Login</button>
             </nav>
         </header>
-        <section>
-            <div class="bg-[url('./assets/dev.jpg')] h-[400px] flex items-center justify-center gap-5 font-bold">
-                <input type="search" name="search" class="px-[4em] rounded-[10px] py-[.5em]"/>
-                <button type="submit" class="bg-blue-400 px-[2em]  py-[.5em] rounded-[10px]">search</button>
-            </div>
-
-            <!-- Categories -->
-            <div>
-                <div class="flex flex-col items-center mt-[5em] leading-[50px]">
-                    <h1 class="font-bold text-blue-400 text-4xl">Browse by category</h1>
-                    <h2>Find the job that's perfect for you. About 800 new jobs everyday</h2>
-                </div>
-                <div class="grid grid-cols-5 justify-items-center gap-10 my-[3em]">
-                    <a href="#">
-                        <div class="flex flex-col justify-center items-center h-[80px] bg-gray-300 w-[200px] rounded-[10px]">
-                            <h1 class="font-bold">Content Writer</h1>
-                            <p>6 jobs available</p>
-                        </div>
-                    </a>
-
-                    <a href="#">
-                        <div class="flex flex-col justify-center items-center h-[80px] bg-gray-300 w-[200px] rounded-[10px]">
-                            <h1 class="font-bold">Managment</h1>
-                            <p>01 job available</p>
-                        </div>
-                    </a>
-
-                    <a href="#">
-                        <div class="flex flex-col justify-center items-center h-[80px] bg-gray-300 w-[200px] rounded-[10px]">
-                            <h1 class="font-bold">Software</h1>
-                            <p>06 jobs available</p>
-                        </div>
-                    </a>
-
-                    <a href="#">
-                        <div class="flex flex-col justify-center items-center h-[80px] bg-gray-300 w-[200px] rounded-[10px]">
-                            <h1 class="font-bold">Market Research</h1>
-                            <p>19 jobs available</p>
-                        </div>
-                    </a>
-
-                    <a href="#">
-                        <div class="flex flex-col justify-center items-center h-[80px] bg-gray-300 w-[200px] rounded-[10px]">
-                            <h1 class="font-bold">Finance</h1>
-                            <p>11 jobs available</p>
-                        </div>
-                    </a>
-
-                    <a href="#">
-                        <div class="flex flex-col justify-center items-center h-[80px] bg-gray-300 w-[200px] rounded-[10px]">
-                            <h1 class="font-bold">Content Writer</h1>
-                            <p>07 jobs available</p>
-                        </div>
-                    </a>
-
-                    <a href="#">
-                        <div class="flex flex-col justify-center items-center h-[80px] bg-gray-300 w-[200px] rounded-[10px]">
-                            <h1 class="font-bold">Managment</h1>
-                            <p>20 jobs available</p>
-                        </div>
-                    </a>
-
-                    <a href="#">
-                        <div class="flex flex-col justify-center items-center h-[80px] bg-gray-300 w-[200px] rounded-[10px]">
-                            <h1 class="font-bold">Software</h1>
-                            <p>44 jobs available</p>
-                        </div>
-                    </a>
-
-                    <a href="#">
-                        <div class="flex flex-col justify-center items-center h-[80px] bg-gray-300 w-[200px] rounded-[10px]">
-                            <h1 class="font-bold">Market Research</h1>
-                            <p>06 jobs available</p>
-                        </div>
-                    </a>
-
-                    <a href="#">
-                        <div class="flex flex-col justify-center items-center h-[80px] bg-gray-300 w-[200px] rounded-[10px]">
-                            <h1 class="font-bold">Finance</h1>
-                            <p>09 jobs available</p>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- Job of the day -->
-                <div>
-                    <div class="flex flex-col items-center">
-                        <h1>Jobs of the day</h1>
-                        <h3>Search and connect with the right  candidates faster</h3>
-                    </div>
-                    <div class="flex justify-between">
-                        <a href="#">
-                            <div class=" flex items-center justify-center w-[100px] h-[50px] bg-gray-300 rounded-[10px]">
-                                <h1 class="font-bold">Finance</h1>
-                            </div>
-                        </a>
-
-                        <a href="#">
-                            <div class=" flex items-center justify-center w-[100px] h-[50px] bg-gray-300 rounded-[10px]">
-                                <h1 class="font-bold">Finance</h1>
-                            </div>
-                        </a>
-
-                        <a href="#">
-                            <div class=" flex items-center justify-center w-[100px] h-[50px] bg-gray-300 rounded-[10px]">
-                                <h1 class="font-bold">Finance</h1>
-                            </div>
-                        </a>
-
-                        <a href="#">
-                            <div class=" flex items-center justify-center w-[100px] h-[50px] bg-gray-300 rounded-[10px]">
-                                <h1 class="font-bold">Finance</h1>
-                            </div>
-                        </a>
-
-                        <a href="#">
-                            <div class=" flex items-center justify-center w-[100px] h-[50px] bg-gray-300 rounded-[10px]">
-                                <h1 class="font-bold">Finance</h1>
-                            </div>
-                        </a>
-
-                        <a href="#">
-                            <div class=" flex items-center justify-center w-[100px] h-[50px] bg-gray-300 rounded-[10px]">
-                                <h1 class="font-bold">Finance</h1>
-                            </div>
-                        </a>
-
-                        <a href="#">
-                            <div class=" flex items-center justify-center w-[100px] h-[50px] bg-gray-300 rounded-[10px]">
-                                <h1 class="font-bold">Finance</h1>
-                            </div>
-                        </a>
-
-                        <a href="#">
-                            <div class=" flex items-center justify-center w-[100px] h-[50px] bg-gray-300 rounded-[10px]">
-                                <h1 class="font-bold">Finance</h1>
-                            </div>
-                        </a>
+        <main>
+            <!-- search bar -->
+                <div class="bg-[url('./assets/dev.jpg')] h-[400px]">
+                    <div class="flex justify-center">
+                        <h1 class="font-bold text-xl text-blue-600">Find the most exciting startup jobs</h1>
+                        <form class="border-2 border-blue-400 rounded">
+                            <input type="text" name="search" placeholder="search a job" class="py-[1.5em] px-[3em]"/>
+                            <select class="py-[1.5em] px-[4em]">
+                                <option value="">Libreville</option>
+                                <option value="">Franceville</option>
+                                <option value="">Lambarene</option>
+                                <option value="">Mouila</option>
+                                <option value="">Tchibanga</option>
+                                <option value="">Koulamoutou</option>
+                            </select>
+                            <button class="bg-blue-400 px-[2em] h-full">Search</button>
+                        </form>
                     </div>
                 </div>
-            </div>
-        </section>
 
-        <footer></footer>
+            <!-- Section for categories -->
+            <div class="flex flex-col items-center my-[3em]">
+                <h1 class="font-bold text-blue-800 text-3xl mb-[1em]">Popular Job Categories</h1>
+                <div class="bg-blue-800 w-[100px] h-[3px] rounded-md mb-[3em]"></div>
+                <!-- Categories -->
+                <div class="grid grid-cols-4 gap-10">
+                   <a href="#">
+                        <div class="w-[300px] h-[300px] rounded-md flex flex-col justify-between items-center py-[1em] hover:bg-blue-600 hover:text-white">
+                            <img src="./assets/code.png" alt="code" width="100px"/>
+                            <div class="bg-gray-300 p-[.5em] rounded">363</div>
+                            <h1 class="text-blue-600 font-bold text-xl">Web & Software Developper</h1>
+                            <p class="text-lg">Software Engineer / Mobile</p>
+                            <p class="text-lg"> Web Developer & More</p>
+                        </div>
+                   </a>
+
+                    <a href="#">
+                        <div class="w-[300px] h-[300px] rounded-md flex flex-col justify-between items-center py-[1em] hover:bg-blue-600 hover:text-white">
+                            <img src="./assets/server.png" alt="server" width="100px"/>
+                            <div class="bg-gray-300 p-[.5em] rounded">573</div>
+                            <h1 class="text-blue-600 font-bold text-xl">Data Science & Analytics</h1>
+                            <p class="text-lg">Data Specialist / Scientist</p>
+                            <p class="text-lg">Data Analyst & More</p>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="w-[300px] h-[300px] rounded-md flex flex-col justify-between items-center py-[1em] hover:bg-blue-600 hover:text-white">
+                            <img src="./assets/calculator.png" alt="code" width="100px"/>
+                            <div class="bg-gray-300 p-[.5em] rounded">200</div>
+                            <h1 class="text-blue-600 font-bold text-xl">Accounting & Consulting</h1>
+                            <p class="text-lg">Auditor, Accountant, Financial</p>
+                            <p class="text-lg">Analyst & More</p>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="w-[300px] h-[300px] rounded-md flex flex-col justify-between items-center py-[1em] hover:bg-blue-600 hover:text-white">
+                            <img src="./assets/pan.png" alt="code" width="100px"/>
+                            <div class="bg-gray-300 p-[.5em] rounded">500</div>
+                            <h1 class="text-blue-600 font-bold text-xl">Writing & Translations</h1>
+                            <p class="text-lg">Copywriter, Creative Writer</p>
+                            <p class="text-lg">Transletor & More</p>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="w-[300px] h-[300px] rounded-md flex flex-col justify-between items-center py-[1em] hover:bg-blue-600 hover:text-white">
+                            <img src="./assets/i-chart.png" alt="chart" width="100px"/>
+                            <div class="bg-gray-300 p-[.5em] rounded">80</div>
+                            <h1 class="text-blue-600 font-bold text-xl">Sales & Marketing</h1>
+                            <p class="text-lg">Brand Manager, Marketing</p>
+                            <p class="text-lg">Coordinator & More</p>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="w-[300px] h-[300px] rounded-md flex flex-col justify-between items-center py-[1em] hover:bg-blue-600 hover:text-white">
+                            <img src="./assets/i-graphic.png" alt="graphic" width="100px"/>
+                            <div class="bg-gray-300 p-[.5em] rounded">400</div>
+                            <h1 class="text-blue-600 font-bold text-xl">Graphics & Design</h1>
+                            <p class="text-lg">Creative Director, Web Designer</p>
+                            <p class="text-lg"> & More</p>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="w-[300px] h-[300px] rounded-md flex flex-col justify-between items-center py-[1em] hover:bg-blue-600 hover:text-white">
+                            <img src="./assets/i-digital.png" alt="digital" width="100px"/>
+                            <div class="bg-gray-300 p-[.5em] rounded">75</div>
+                            <h1 class="text-blue-600 font-bold text-xl">Digital Marketing</h1>
+                            <p class="text-lg">Darketing Analyst , Social Profile</p>
+                            <p class="text-lg">Admin & More</p>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="w-[300px] h-[300px] rounded-md flex flex-col justify-between items-center py-[1em] hover:bg-blue-600 hover:text-white">
+                            <img src="./assets/i-education.png" alt="education" width="100px"/>
+                            <div class="bg-gray-300 p-[.5em] rounded">28</div>
+                            <h1 class="text-blue-600 font-bold text-xl">Education & Training</h1>
+                            <p class="text-lg">Advisor, Coach,</p>
+                            <p class="text-lg">Education Coordinator & More</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </main>
+        <footer class="bg-blue-600 px-[2em] py-[1em] flex justify-between">
+            <div class="">
+                <h1 class="font-bold text-xl mb-[1em]">Job seekers</h1>
+                <ul class="leading-[30px]">
+                    <li><a href="#">Browse jobs</a></li>
+                    <li><a href="#">Job single</a></li>
+                    <li><a href="#">My stared jobs</a></li>
+                </ul>
+            </div>
+
+            <div class="">
+                <h1 class="font-bold text-xl mb-[1em]">Employers</h1>
+                <ul class="leading-[30px]">
+                    <li><a href="#">post a job</a></li>
+                    <li><a href="#">Job dashboard</a></li>
+                    <li><a href="#">Find staff</a></li>
+                </ul>
+            </div>
+
+            <div class="">
+                <h1 class="font-bold text-xl mb-[1em]">Community</h1>
+                <ul class="leading-[30px]">
+                    <li><a href="#">Conatc Us</a></li>
+                    <li><a href="#">Guidelines</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                </ul>
+            </div>
+        </footer>
     </body>
 </html>
