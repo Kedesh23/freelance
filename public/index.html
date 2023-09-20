@@ -22,21 +22,33 @@
         <main>
             <!-- search bar -->
                 <div class="bg-[url('./assets/dev.jpg')] h-[400px]">
-                    <div class="flex justify-center">
-                        <h1 class="font-bold text-xl text-blue-600">Find the most exciting startup jobs</h1>
-                        <form class="border-2 border-blue-400 rounded">
-                            <input type="text" name="search" placeholder="search a job" class="py-[1.5em] px-[3em]"/>
-                            <select class="py-[1.5em] px-[4em]">
-                                <option value="">Libreville</option>
-                                <option value="">Franceville</option>
-                                <option value="">Lambarene</option>
-                                <option value="">Mouila</option>
-                                <option value="">Tchibanga</option>
-                                <option value="">Koulamoutou</option>
-                            </select>
-                            <button class="bg-blue-400 px-[2em] h-full">Search</button>
-                        </form>
+                    <div class="w-full h-full bg-black opacity-80">
+                        <div class="flex flex-col items-center py-[3em] leading-[80px]">
+                            <h1 class="text-white font-bold text-5xl">You can choose your dream job</h1>
+                            <h2 class="font-bold text-blue-800">Find great job for build your bright career. Have many job in this platform</h2>
+                        </div>
+                        <div class="flex justify-center">
+                            <form>
+                                <select class="w-[20em] py-[1em] rounded-lg" placeholder="Choose City">
+                                    <option value="">Libreville</option>
+                                    <option value="">Franceville</option>
+                                    <option value="">Mouila</option>
+                                    <option value="">Port-Gentil</option>
+                                    <option value="">Lambarene</option>
+                                </select>
+
+                                <select class="w-[20em] py-[1em] rounded-lg" aria-placeholder="Category">
+                                    <option value="">Web Designer</option>
+                                    <option value="">Web Developer</option>
+                                    <option value="">Graphic Designer</option>
+                                    <option value="">App Developer</option>
+                                    <option value="">UI & UX Expert</option>
+                                </select>
+                                <button type="submit"  class="font-bold bg-blue-600 py-[.9em] px-[3em] rounded-lg">Search</button>
+                            </form>
+                        </div>
                     </div>
+                    
                 </div>
 
             <!-- Section for categories -->
@@ -49,7 +61,7 @@
                         <div class="w-[300px] h-[300px] rounded-md flex flex-col justify-between items-center py-[1em] hover:bg-blue-600 hover:text-white">
                             <img src="./assets/code.png" alt="code" width="100px"/>
                             <div class="bg-gray-300 p-[.5em] rounded">363</div>
-                            <h1 class="text-blue-600 font-bold text-xl">Web & Software Developper</h1>
+                            <h1 class="font-bold text-xl">Web & Software Developper</h1>
                             <p class="text-lg">Software Engineer / Mobile</p>
                             <p class="text-lg"> Web Developer & More</p>
                         </div>
@@ -59,7 +71,7 @@
                         <div class="w-[300px] h-[300px] rounded-md flex flex-col justify-between items-center py-[1em] hover:bg-blue-600 hover:text-white">
                             <img src="./assets/server.png" alt="server" width="100px"/>
                             <div class="bg-gray-300 p-[.5em] rounded">573</div>
-                            <h1 class="text-blue-600 font-bold text-xl">Data Science & Analytics</h1>
+                            <h1 class="font-bold text-xl">Data Science & Analytics</h1>
                             <p class="text-lg">Data Specialist / Scientist</p>
                             <p class="text-lg">Data Analyst & More</p>
                         </div>
@@ -69,7 +81,7 @@
                         <div class="w-[300px] h-[300px] rounded-md flex flex-col justify-between items-center py-[1em] hover:bg-blue-600 hover:text-white">
                             <img src="./assets/calculator.png" alt="code" width="100px"/>
                             <div class="bg-gray-300 p-[.5em] rounded">200</div>
-                            <h1 class="text-blue-600 font-bold text-xl">Accounting & Consulting</h1>
+                            <h1 class="font-bold text-xl">Accounting & Consulting</h1>
                             <p class="text-lg">Auditor, Accountant, Financial</p>
                             <p class="text-lg">Analyst & More</p>
                         </div>
@@ -79,7 +91,7 @@
                         <div class="w-[300px] h-[300px] rounded-md flex flex-col justify-between items-center py-[1em] hover:bg-blue-600 hover:text-white">
                             <img src="./assets/pan.png" alt="code" width="100px"/>
                             <div class="bg-gray-300 p-[.5em] rounded">500</div>
-                            <h1 class="text-blue-600 font-bold text-xl">Writing & Translations</h1>
+                            <h1 class="font-bold text-xl">Writing & Translations</h1>
                             <p class="text-lg">Copywriter, Creative Writer</p>
                             <p class="text-lg">Transletor & More</p>
                         </div>
@@ -89,7 +101,7 @@
                         <div class="w-[300px] h-[300px] rounded-md flex flex-col justify-between items-center py-[1em] hover:bg-blue-600 hover:text-white">
                             <img src="./assets/i-chart.png" alt="chart" width="100px"/>
                             <div class="bg-gray-300 p-[.5em] rounded">80</div>
-                            <h1 class="text-blue-600 font-bold text-xl">Sales & Marketing</h1>
+                            <h1 class="font-bold text-xl">Sales & Marketing</h1>
                             <p class="text-lg">Brand Manager, Marketing</p>
                             <p class="text-lg">Coordinator & More</p>
                         </div>
@@ -99,7 +111,7 @@
                         <div class="w-[300px] h-[300px] rounded-md flex flex-col justify-between items-center py-[1em] hover:bg-blue-600 hover:text-white">
                             <img src="./assets/i-graphic.png" alt="graphic" width="100px"/>
                             <div class="bg-gray-300 p-[.5em] rounded">400</div>
-                            <h1 class="text-blue-600 font-bold text-xl">Graphics & Design</h1>
+                            <h1 class="font-bold text-xl">Graphics & Design</h1>
                             <p class="text-lg">Creative Director, Web Designer</p>
                             <p class="text-lg"> & More</p>
                         </div>
@@ -109,7 +121,7 @@
                         <div class="w-[300px] h-[300px] rounded-md flex flex-col justify-between items-center py-[1em] hover:bg-blue-600 hover:text-white">
                             <img src="./assets/i-digital.png" alt="digital" width="100px"/>
                             <div class="bg-gray-300 p-[.5em] rounded">75</div>
-                            <h1 class="text-blue-600 font-bold text-xl">Digital Marketing</h1>
+                            <h1 class="font-bold text-xl">Digital Marketing</h1>
                             <p class="text-lg">Darketing Analyst , Social Profile</p>
                             <p class="text-lg">Admin & More</p>
                         </div>
@@ -119,7 +131,7 @@
                         <div class="w-[300px] h-[300px] rounded-md flex flex-col justify-between items-center py-[1em] hover:bg-blue-600 hover:text-white">
                             <img src="./assets/i-education.png" alt="education" width="100px"/>
                             <div class="bg-gray-300 p-[.5em] rounded">28</div>
-                            <h1 class="text-blue-600 font-bold text-xl">Education & Training</h1>
+                            <h1 class="font-bold text-xl">Education & Training</h1>
                             <p class="text-lg">Advisor, Coach,</p>
                             <p class="text-lg">Education Coordinator & More</p>
                         </div>
@@ -127,7 +139,7 @@
                 </div>
             </div>
         </main>
-        <footer class="bg-blue-600 px-[2em] py-[1em] flex justify-between px-[4em]">
+        <footer class="bg-blue-500 px-[2em] py-[1em] flex justify-between px-[4em] text-white">
 
              <div class="flex flex-col items-center">
                 <h1 class="font-bold text-xl mb-[1em]">Job seekers</h1>
