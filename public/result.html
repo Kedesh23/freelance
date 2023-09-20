@@ -5,7 +5,21 @@
         <script src="https://cdn.tailwindcss.com"></script>
     </head>
     <body>
-        <section class="flex flex-row w-full  gap-x-5">
+        <header>
+            <nav class="flex items-center justify-between px-[2em] font-bold">
+                <div class="flex items-center">
+                    <img src="./assets/logoW.jpg" alt="Freelancer" width="100px"/>
+                    <span>Freelancer</span>
+                </div>
+                <ul class="flex gap-10">
+                    <li><a href="#">Find a Freelnace</a></li>
+                    <li><a href="#">Find a Job</a></li>
+                </ul>
+                <a href="sign_in.html" class="bg-blue-400 rounded px-[2em] py-[1em]">Register/Login</a>
+            </nav>
+        </header>
+
+        <section class="flex flex-row w-full gap-x-5 my-[3em]">
             <div class="w-[30%]  border-r-2 border-black ">
                 
             </div>
@@ -176,13 +190,53 @@
                         </div>
                     </div>
                 </div>
-
-                <div>
-    
-                </div>
-                <div>
-    
-                </div>
             </div>
         </section>
+        <footer class="bg-blue-600 px-[2em] py-[1em] flex justify-between">
+
+            <div class="flex flex-col items-center">
+               <h1 class="font-bold text-xl mb-[1em]">Job seekers</h1>
+               <ul class="leading-[30px] flex flex-col items-center">
+                   <li><a href="#">Browse jobs</a></li>
+                   <li><a href="#">Job single</a></li>
+                   <li><a href="#">My stared jobs</a></li>
+               </ul>
+           </div>
+
+           <div class="flex flex-col items-center">
+               <h1 class="font-bold text-xl mb-[1em]">Employers</h1>
+               <ul class="leading-[30px] flex flex-col items-center">
+                   <li><a href="#">post a job</a></li>
+                   <li><a href="#">Job dashboard</a></li>
+                   <li><a href="#">Find staff</a></li>
+               </ul>
+           </div>
+
+           <div class="flex flex-col items-center">
+               <h1 class="font-bold text-xl mb-[1em]">Community</h1>
+               <ul class="leading-[30px] flex flex-col items-center">
+                   <li><a href="#">Conatc Us</a></li>
+                   <li><a href="#">Guidelines</a></li>
+                   <li><a href="#">Terms of Use</a></li>
+               </ul>
+           </div>
+
+           <div class="flex flex-col items-center">
+               <h1 class="font-bold text-xl mb-[1em]">Company</h1>
+               <ul class="leading-[30px] flex flex-col items-center">
+                   <li><a href="#">About Us</a></li>
+                   <li><a href="#">Our Partners</a></li>
+                   <li><a href="#">Terms of Use</a></li>
+               </ul>
+           </div>
+
+           <div class="flex flex-col items-center">
+               <h1 class="font-bold text-xl mb-[1em]">Legal</h1>
+               <ul class="leading-[30px] flex flex-col items-center">
+                   <li><a href="#">Afiliate</a></li>
+                   <li><a href="#">Blog</a></li>
+                   <li><a href="#">Careers</a></li>
+               </ul>
+           </div>
+       </footer>
     </body>
